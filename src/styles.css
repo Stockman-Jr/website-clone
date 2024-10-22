@@ -28,3 +28,16 @@ body {
     letter-spacing: 1px;
     transition: all ease-in 0.3s;
 }
+
+.readmore-btn {
+    background-color: rgb(70, 70, 70);
+    padding: 12px;
+    color: rgb(212, 253, 65);
+    border-radius: 25px;
+    font-variant: small-caps;
+}
+
+.readmore-btn:hover {
+    letter-spacing: 1px;
+    transition: all ease-in-out 0.3s;
+}
