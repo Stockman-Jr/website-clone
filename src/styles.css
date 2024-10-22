@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.main-nav {
+    position: relative;
+}
+
+.menu-item {
+    font-weight: 700;
+}
+
+.menu-item a:hover {
+    color: rgb(86, 151, 0);
+    letter-spacing: 1px;
+    transition: all ease-in 0.3s;
+}
