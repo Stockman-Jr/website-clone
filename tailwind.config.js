@@ -7,7 +7,8 @@ module.exports = {
         "neon-yellow": "rgb(212, 253, 65)",
       },
       fontFamily: {
-        space: ["Space Grotesk", "sans-serif"],
+        mono: ["Inconsolata", "monospace"],
+        teko: ["Teko", "sans-serif"],
       },
     },
   },

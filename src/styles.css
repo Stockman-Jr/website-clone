@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@87.5,200..900&family=Teko:wght@300..700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -31,9 +31,8 @@ body {
   }
 
 h1, h3 {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
 }
 
 .menu {
@@ -76,4 +75,10 @@ i {
     color: rgb(212, 253, 65);
     font-size: 28px;
     text-align: center;
+}
+
+hr {
+    height: 2px;
+    width: 80%;
+    background: rgba(88, 88, 88, 0.425);
 }
