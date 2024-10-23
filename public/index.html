@@ -110,9 +110,12 @@
                     </svg>
                 </a>
             <nav>
-                <ul class="menu mr-10">
+                <ul class="menu mr-10 space-x-4">
                     <li class="menu-item">
                         <a href="#">Home</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#">News & Insights</a>
                     </li>
                     <li class="menu-item">
                         <a href="#">About</a>
@@ -137,9 +140,11 @@
     <!--FIRST SECTION-->
     <div class="w-full flex flex-col items-center justify-center mt-28 mb-24 px-6">
         <div class="max-w-[740px]">
-        <h1 class="gradient-heading text-center text-4xl text-zinc-800 mb-6">Latest</h1>
-        <p class="text-center text-zinc-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Pariatur magnam commodi explicabo reprehenderit possimus, repudiandae ab omnis quasi iusto dolor odio fugiat soluta veniam nemo esse dignissimos atque beatae asperiores?</p>
-    </div>
+            <h1 class="text-center text-4xl text-zinc-800 mb-6">Latest</h1>
+            <p class="text-center text-zinc-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Pariatur magnam commodi explicabo reprehenderit possimus, repudiandae ab omnis quasi iusto dolor odio fugiat
+                soluta veniam nemo esse dignissimos atque beatae asperiores?</p>
+        </div>
     </div>
     <div class="w-full mt-28 mb-24 px-6">
         <div class="mx-auto">
@@ -186,14 +191,28 @@
     </div>
 
     <!--SECOND SECTION-->
+
+    <div class="w-full flex flex-col items-center justify-center mt-28 mb-24 px-6">
+        <div class="max-w-[740px]">
+            <h1 class="text-center text-4xl text-zinc-800 mb-6">About us</h1>
+            <p class="text-center text-zinc-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+                Pariatur magnam commodi explicabo reprehenderit possimus, repudiandae ab omnis quasi iusto dolor odio fugiat
+                soluta veniam nemo esse dignissimos atque beatae asperiores? 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, hic error. Enim illum cupiditate eius reiciendis facere officia adipisci ipsa nemo magni.
+            </p>
+        </div>
+        <button class="readmore-btn mt-6 shadow-md">What we do</button>
+    </div>
+
+    <!--THIRD SECTION-->
     <div class="w-full mt-28 mb-24 px-8">
         <h1 class="text-center text-4xl text-zinc-800 mb-8">Solutions</h1>
-        <div class="flex justify-between lg:flex-row flex-col gap-y-12">
-            <div class="lg:w-2/5 w-4/5 flex flex-col items-center mx-auto">
-                <div class="w-full relative overflow-hidden rounded-xl">
-                    <img src="../assets/images/lexhub360.jpg" class="w-full h-full rounded-xl"/>
+        <div class="w-4/5 flex mx-auto lg:flex-row flex-col gap-y-12 bg-zinc-500 rounded-xl">
+            <div class="flex flex-col items-center mx-auto rounded-xl">
+                <div class="relative overflow-hidden rounded-xl">
+                    <img src="../assets/images/lexhub360.jpg" class="w-full h-full object-cover"/>
                     <span class="absolute inset-0 z-[5] bg-black opacity-60"></span>
-                    <div class="w-full z-10 px-6 absolute top-7 mx-auto">
+                    <div class="w-full z-10 px-6 absolute top-16 mx-auto">
                         <h3 class="text-center text-4xl text-white">LexHub</h3>
                         <p class="text-center text-l text-white mt-4">
                         LexHub our pioneering technology that delivers fast and reliable EV charging even in areas with limited power grid capacity. <br /> <br />
@@ -203,10 +222,10 @@
                 </div>
             </div>
 
-            <div class="lg:w-2/5 w-4/5 flex flex-col items-center mx-auto">
-                <div class="w-full h-full relative rounded-xl bg-zinc-500">         
+            <div class="flex flex-col items-center mx-auto">
+                <div class="h-full relative bg-zinc-500 rounded-xl">         
                     <div class="w-full z-10 px-6 mx-auto">
-                        <h3 class="text-center text-4xl text-white mt-7">LexBox</h3>
+                        <h3 class="text-center text-4xl text-white mt-4">LexBox</h3>
                         <p class="text-center text-md text-white mt-4 ">LexBox is a complete solution for energy consumption, decreased cost and maximized revenue.</p>
                         <div class="grid grid-cols-2 gap-y-12 my-6 text-white">
                             <div class="text-center">
