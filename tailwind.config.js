@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         "neon-yellow": "rgb(212, 253, 65)",
       },
+      fontFamily: {
+        space: ["Space Grotesk", "sans-serif"],
+      },
     },
   },
   plugins: [],

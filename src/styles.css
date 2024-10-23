@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -10,6 +10,9 @@
 
 body {
     width: 100%;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
 }
 
 ::-webkit-scrollbar {
@@ -28,7 +31,8 @@ body {
   }
 
 h1, h3 {
-    font-family: "Jockey One", sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 600;
 }
 
@@ -53,10 +57,12 @@ h1, h3 {
 
 .readmore-btn {
     background-color: rgb(70, 70, 70);
-    padding: 12px;
+    padding: 4px 14px 4px 14px;
     color: rgb(212, 253, 65);
     border-radius: 25px;
     font-variant: small-caps;
+    font-size: 1.2rem;
+    align-self: center;
 }
 
 .readmore-btn:hover {
@@ -64,4 +70,10 @@ h1, h3 {
     background-color:rgb(212, 253, 65);
     color: rgb(70, 70, 70);
     transition: all ease-in-out 0.3s;
+}
+
+i {
+    color: rgb(212, 253, 65);
+    font-size: 28px;
+    text-align: center;
 }
